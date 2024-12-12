@@ -1,0 +1,61 @@
+/* Kontener główny */
+.main-container {
+  display: flex;
+  width: 100vw;
+  height: calc(100vh - 60px); /* Zostawiamy miejsce na stopkę */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Lewa część - Banner */
+.left-side {
+  width: 15%; /* 15% szerokości ekranu */
+}
+
+.banner {
+  background-color: #2d3d50;
+  color: white;
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Środkowa część - Dostępne zakłady */
+.center-side {
+  width: 70%; /* 70% szerokości ekranu */
+  padding: 20px;
+  height: auto;
+}
+
+.bets {
+  background-color: #f3f4f6;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 100%;
+  text-align: center;
+}
+
+/* Prawa część - Zakłady użytkownika */
+.right-side {
+  width: 15%; /* 15% szerokości ekranu */
+}
+
+.user-bets {
+  background-color: #e0e0e0;
+  color: black;
+  height: 100%;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}

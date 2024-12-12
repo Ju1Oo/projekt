@@ -1,0 +1,45 @@
+body{
+    margin: 0;/* Ogólne stylizacje */
+    .App {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    
+    /* Styl stopki */
+    .footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+    
+}
+
+/* Ogólne stylizacje */
+.App {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* Styl stopki */
+  .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
